@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<q_and_a>
+<question time="10" points="1">
+  <text>Какая страна считается центром произрастания тыквы?</text>
+  <answers>
+    <answer>США</answer>
+    <answer right="true">Мексика</answer>
+    <answer>Бразилия</answer>
+  </answers>
+</question>
+
+<question time="25" points="2">
+  <text>Какой бытовой предмет заменяет тыква на празднике Хэллоуин?</text>
+  <answers>
+    <answer right="true">Фонарик</answer>
+    <answer>Кастрюлю</answer>
+    <answer>Клетку</answer>
+  </answers>
+</question>
+
+<question time="20" points="3">
+  <text>Чем, с точки зрения ботаники, является плод тыквы? </text>
+  <answers>
+    <answer right="true">Ягодой</answer>
+    <answer>Семянкой</answer>
+    <answer>Костянкой</answer>
+  </answers>
+</question>
+
+<question time="30" points="5">
+  <text>Какие доисторические животные способствовали распространению семян тыквы по земному шару?</text>
+  <answers>
+    <answer right="true">Мастодонты</answer>
+    <answer>Птеродактили</answer>
+    <answer>Саблезубые тигры</answer>
+  </answers>
+</question>
+
+<question time="15" points="4">
+  <text>Кто из путешественников завез тыкву на Европейский континент?</text>
+  <answers>
+    <answer>Марко Поло</answer>
+    <answer right="true">Христофор Колумб</answer>
+    <answer>Джеймс Кук</answer>
+  </answers>
+</question>
+</q_and_a>

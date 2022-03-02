@@ -1,13 +1,3 @@
-# Код, чтобы не заморачиваться с кодировкой в Windows
-if (Gem.win_platform?)
-  Encoding.default_external = Encoding.find(Encoding.locale_charmap)
-  Encoding.default_internal = __ENCODING__
-
-  [STDIN, STDOUT].each do |io|
-    io.set_encoding(Encoding.default_external, Encoding.default_internal)
-  end
-end
-
 require 'date'
 require 'colorize'
 require 'colorized_string'
@@ -22,9 +12,9 @@ questions = Quiz.from_file(file_name)
 quiz = Quiz.new(questions)
 
 puts <<~DESC
-  Проверьте свои знания с помощью викторины. Ответьте на #{questions.size} вопросов.
-  Около каждого вопроса вы увидите количество баллов за правильный ответ, а также отведенное на ответ время.
-  Если вы не уложитесь в обозначенное время, викторина завершится.
+  You can check your knowledge with this quiz. It contains #{questions.size} questions.
+  Points for correct answer and alloted time to answer are nearby each question.
+  If you exceed alloted time for the answer, the quiz would be finished beforehand.
 
 DESC
 
@@ -37,14 +27,14 @@ questions.each.with_index(1) do |question, index|
 
   unless quiz.time_expired?(question.time, time_on)
     puts <<~ERROR
-      Время на ответ превысило допустимый промежуток!
-      Викторина будет прервана.
+      Alloted time for the answer was exceeded.
+      Quiz would be interrupted.
     ERROR
     break
   end
 end
 
 puts <<~FINALTEXT
-  Правильных ответов #{quiz.right_answers} из #{questions.size}.
-  Вы набрали #{quiz.score} баллов.
+  You have got #{quiz.right_answers} correct answers out of #{questions.size} questions.
+  You have got #{quiz.score} points.
 FINALTEXT

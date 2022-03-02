@@ -11,8 +11,8 @@ class Question
 
   def show
     <<~TEXT
-      #{@text} (баллов: #{@points})
-      У вас #{@time} секунд на ответ.
+      #{@text} (#{@points} points)
+      You have #{@time} seconds to answer.
     TEXT
   end
 

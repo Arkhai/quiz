@@ -2,47 +2,47 @@
 
 <q_and_a>
 <question time="10" points="1">
-  <text>Какая страна считается центром произрастания тыквы?</text>
+  <text>Which of the following vegetables is mostly associated with Halloween?</text>
   <answers>
-    <answer>США</answer>
-    <answer right="true">Мексика</answer>
-    <answer>Бразилия</answer>
+    <answer>Butternut squash</answer>
+    <answer right="true">Pumpkin</answer>
+    <answer>Zucchini</answer>
   </answers>
 </question>
 
 <question time="25" points="2">
-  <text>Какой бытовой предмет заменяет тыква на празднике Хэллоуин?</text>
+  <text>Why was the original meaning of celebrating Halloween?</text>
   <answers>
-    <answer right="true">Фонарик</answer>
-    <answer>Кастрюлю</answer>
-    <answer>Клетку</answer>
+    <answer right="true">To drive away the evil spirits like witches or ghosts</answer>
+    <answer>To mark the beginning of the pumpkin season</answer>
+    <answer>To celebrate a Saint</answer>
   </answers>
 </question>
 
 <question time="20" points="3">
-  <text>Чем, с точки зрения ботаники, является плод тыквы? </text>
+  <text>Which veggies were used to make Jack O’ Lanterns before people used pumpkins?</text>
   <answers>
-    <answer right="true">Ягодой</answer>
-    <answer>Семянкой</answer>
-    <answer>Костянкой</answer>
+    <answer right="true">Turnips</answer>
+    <answer>Onions</answer>
+    <answer>Potatoes</answer>
   </answers>
 </question>
 
 <question time="30" points="5">
-  <text>Какие доисторические животные способствовали распространению семян тыквы по земному шару?</text>
+  <text>What do we call the day after Halloween, or 1st November?</text>
   <answers>
-    <answer right="true">Мастодонты</answer>
-    <answer>Птеродактили</answer>
-    <answer>Саблезубые тигры</answer>
+    <answer right="true">All Saint’s Day</answer>
+    <answer>Advent</answer>
+    <answer>St Andrew’s Day</answer>
   </answers>
 </question>
 
 <question time="15" points="4">
-  <text>Кто из путешественников завез тыкву на Европейский континент?</text>
+  <text>The roots of Halloween can be traced back to an ancient festival in which UK region?</text>
   <answers>
-    <answer>Марко Поло</answer>
-    <answer right="true">Христофор Колумб</answer>
-    <answer>Джеймс Кук</answer>
+    <answer>Wales</answer>
+    <answer right="true">Scotland</answer>
+    <answer>England</answer>
   </answers>
 </question>
 </q_and_a>
